@@ -47,7 +47,7 @@
 	<bean id="mysqlDataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource"
 		destroy-method="close">
 		<property name="driverClass" value="com.mysql.jdbc.Driver" />
-		<property name="jdbcUrl" value="jdbc:mysql://172.30.155.142:3306/ctrlt?charSet=LATIN1" />
+		<property name="jdbcUrl" value="jdbc:mysql://172.30.140.52:3306/ctrlt?charSet=LATIN1" />
 		<property name="user" value="root" />
 		<property name="password" value="123456" />
 
